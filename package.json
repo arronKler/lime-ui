@@ -1,0 +1,36 @@
+{
+  "name": "lime-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.7",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "vuepress": "^1.0.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "deploy:build": "npm run docs:build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arronKler/lime-ui.git"
+  },
+  "keywords": [],
+  "author": "ArronKler <arronkler@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arronKler/lime-ui/issues"
+  },
+  "homepage": "https://github.com/arronKler/lime-ui#readme",
+  "peerDependencies": {
+    "vue": "^2.5.2"
+  }
+}

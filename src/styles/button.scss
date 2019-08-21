@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/mixins";
+
+@include b(button) {
+  min-width: 60px;
+  height: 36px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-width: 1px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid transparent;
+  padding: 0 10px;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &-default {
+    color: #333;
+    border-color: #555;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: rgba($--color-primary, 0.3);
+    }
+  }
+  &-primary {
+    color: #fff;
+    background-color: $--color-primary;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: mix($--color-primary, #ccc);
+    }
+  }
+
+  &-info {
+    color: #fff;
+    background-color: $--color-info;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: mix($--color-info, #ccc);
+    }
+  }
+   &-success {
+    color: #fff;
+    background-color: $--color-success;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: mix($--color-success, #ccc);
+    }
+  }
+}
+
