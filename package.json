@@ -5,7 +5,7 @@
   "main": "lib/lime-ui.min.js",
   "dependencies": {
     "async-validator": "^3.0.4",
-    "core-js": "^3.2.1",
+    "core-js": "2.6.9",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
   },
@@ -55,7 +55,7 @@
     "build:style": "gulp --gulpfile build/gen-style.js",
     "build:components": "webpack --config build/webpack.component.js",
     "build:prod": "webpack --config build/webpack.prod.js",
-    "dist": "npm run build:style && npm run build:prod && npm run build:components",
+    "dist": "npm run test && npm run build:style && npm run build:prod && npm run build:components",
     "deploy": "gh-pages -d docs/.vuepress/dist",
     "deploy:build": "npm run docs:build && npm run deploy",
     "test": "karma start test/karma.config.js --single-run"

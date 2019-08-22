@@ -7,7 +7,7 @@
         "modules": "commonjs",
         "spec": true,
         "useBuiltIns": "usage",
-        "corejs": "3.2.1"
+        "corejs": "2.6.9"
       }
     ]
   ],
