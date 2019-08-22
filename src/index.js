@@ -1,7 +1,13 @@
 import Button from './packages/button'
+import Form from './packages/form'
+import FormItem from './packages/form-item'
+import Input from './packages/input'
 
 const components = {
   lButton: Button,
+  lForm: Form,
+  lFormItem: FormItem,
+  lInput: Input
 }
 
 

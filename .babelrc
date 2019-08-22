@@ -6,7 +6,8 @@
         "loose": false,
         "modules": "commonjs",
         "spec": true,
-        "useBuiltIns": "usage"
+        "useBuiltIns": "usage",
+        "corejs": "3.2.1"
       }
     ]
   ],
