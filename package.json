@@ -1,7 +1,7 @@
 {
   "name": "lime-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "another light weight vue.js component library",
   "main": "lib/lime-ui.min.js",
   "dependencies": {
     "async-validator": "^3.0.4",
