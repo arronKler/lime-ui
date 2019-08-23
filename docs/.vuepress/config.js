@@ -27,7 +27,7 @@ module.exports = {
             'basic/button',
             'basic/input',
             'basic/form',
-            'basic/message'
+            'basic/notice'
           ]
         },
       ]
