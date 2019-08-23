@@ -22,7 +22,7 @@ npm install lime-ui --save
 Import in your entry script file and register it
 ```javascript
 import LimeUI from 'lime-ui'
-import "lime-ui/dist/style/lime-ui.css"
+import "lime-ui/lib/styles/lime-ui.css"
 
 Vue.use(LimeUI)
 ```
