@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/mixins";
+
+@include b(notice) {
+  position: fixed;
+  right: 20px;
+  top: 60px;
+  z-index: 1000;
+
+  &__main {
+    min-width: 100px;
+    padding: 10px 20px;
+    box-shadow: 0 0 4px #aaa;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  &__title {
+    font-size: 16px;
+  }
+  &__content {
+    font-size: 14px;
+    color: #777;
+  }
+}
+

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/mixins";
+
+@include b(form-item) {
+
+  &__label {
+    &-required {
+      &:before {
+        content: "*";
+        color: red;
+      }
+    }
+  }
+
+  &__error {
+    color: red;
+  }
+}
