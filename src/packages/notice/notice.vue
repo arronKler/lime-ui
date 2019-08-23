@@ -1,8 +1,8 @@
 <template>
-  <div class="notice">
-    <div class="notice-main" v-for="item in notices" :key="item.id">
-      <div class="notice-title">{{item.title}}</div>
-      <div class="notice-content">{{item.content}}</div>
+  <div class="lime-notice">
+    <div class="lime-notice__main" v-for="item in notices" :key="item.id">
+      <div class="lime-notice__title">{{item.title}}</div>
+      <div class="lime-notice__content">{{item.content}}</div>
     </div>
   </div>
 </template>
@@ -38,26 +38,4 @@ export default {
 </script>
 
 <style>
-.notice {
-  position: fixed;
-  right: 20px;
-  top: 60px;
-  z-index: 1000;
-}
-
-.notice-main {
-  min-width: 100px;
-  padding: 10px 20px;
-  box-shadow: 0 0 4px #aaa;
-  margin-bottom: 10px;
-  border-radius: 4px;
-}
-
-.notice-title {
-  font-size: 16px;
-}
-.notice-content {
-  font-size: 14px;
-  color: #777;
-}
 </style>
