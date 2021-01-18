@@ -9,6 +9,8 @@ LimeUI
     <h3>A lightweight Vue.js UI toolkit</h3>
 </h1>
 
+demo: [https://arronkler.github.io/lime-ui/](https://arronkler.github.io/lime-ui/)
+
 # Install
 
 Run the command below in your terminal to install limeUI first
