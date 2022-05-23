@@ -66,3 +66,5 @@ import { Button } from 'lime-ui'
 
 Vue.component('a-button', Button)
 ```
+
+have fun
